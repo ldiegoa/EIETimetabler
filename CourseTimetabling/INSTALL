@@ -1,0 +1,60 @@
+   CourseTimetabling Installation
+
+       --------------------------------------------------------------
+
+        
+
+     What is needed
+
+       In order to install and use the EasyLocal++ solver for the Course
+       Timetabling problem you must be sure that the target machine provides,
+       at least, the following components (an up-to-date Linux distribution
+       should fulfill all the requirements, as well as the Cygwin environment
+       under Windows 95/98/ME).
+
+          *  GNU gzip version > 1.2
+          *  GNU g++ compiler version > 2.95.2
+          *  GNU make version > 3.78
+          *  miniEasyLocal++ version > 0.1
+
+       The software has been tested with the above specified configuration,
+       although, in principle, it could be used with different compilers and
+       different versions of the above mentioned tools. Yet, the details on
+       how to port the software on different compilers/tools platforms is out
+       of the scope of this document. 
+
+     Installing the software
+
+       To install the software you have to unpack the file
+       CourseTimetabling.tar.gz in the target directory by typing:
+
+       > gunzip -c CourseTimetabling.tar.gz | tar -xf -
+
+       This command will create a directory called CourseTimetabling/ which
+       contains all the source files.
+
+     Compiling the software
+
+       Once you are sure that the set of tools required are provided, in order
+       to compile the software you have to edit the Makefile to let the
+       compiler point to the EasyLocal++ installation. Please, notice that
+       before doing this you should have properly installed the EasyLocal++
+       distribution and compiled the EasyLocal++ library.
+
+       There is only a line which should be edited:
+
+       EASYLOCALDIR = /your/EasyLocal++/path
+
+       Then simply type: 
+
+       > make
+       in the root directory of the distribution and the compilation starts.
+       The outcome of the process is an executable file named course_tt.exe.
+
+     Using the software
+
+       To run the CourseTimetabling program type: 
+       > course_tt.exe
+       from the CourseTimetabling/ directory. The program prompts for a set of
+       data files to be used. In this distribution we provide only the data of
+       the first term, therefore the only possible choice is data 1.

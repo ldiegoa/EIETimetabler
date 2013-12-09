@@ -1,0 +1,40 @@
+/** 
+    @file EasyLocal
+    @brief Include file
+
+    This file includes both the class declarations of the EasyLocal++
+    framework and the template definition that must be instantiated.
+    
+    It must be included in any project that uses the framework.
+    
+    @author Andrea Schaerf (schaerf@uniud.it), 
+            Luca Di Gaspero (digasper@dimi.uniud.it)
+    @version 0.1
+    @date 15 Jun 2001
+    @note This version works both with MS Visual C++ and the GNU C++ 
+          compiler. Yet, it is extensively tested only with the GNU compiler.
+*/
+
+#include "EasyLocal.h"
+#include "EasyLocalTemplates.cpp"
+
+/**
+   @mainpage miniEasyLocal++ documentation
+
+   This set of pages contains an online reference manual of the EasyLocal++
+   framework. It is still incomplete, but we plan to extend it (hopefully) 
+   soon.
+
+   Further informations on how to employ the framework in the development
+   of an actual application are available in the following paper:
+   @li L. Di Gaspero and A. Schaerf. 
+       <a href="http://www.diegm.uniud.it/~aschaerf/projects/local++/index.html#RR">
+       EasyLocal++: an object-oriented framework for flexible 
+       design of local search  algorithms.
+       </a> Research report UDMI/13/2000/RR, May 2000.
+
+   Some informations about how to compile an application that uses
+   the framework classes can be found in the 
+   <a href="http://tabu.dimi.uniud.it/EasyLocal/install.html">installation 
+   notes.</a>
+*/

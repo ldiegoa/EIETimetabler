@@ -1,0 +1,29 @@
+# Microsoft Developer Studio Generated Dependency File, included by miniEasyLocal.mak
+
+.\src\EasyLocal.cpp : \
+	".\etc\flexlexer.h"\
+	".\src\EasyLocal.h"\
+	
+
+.\src\ExpSpec.tab.cpp : \
+	".\etc\flexlexer.h"\
+	".\src\EasyLocal.h"\
+	
+
+.\src\ExpSpec.yy.cpp : \
+	".\src\EasyLocal.h"\
+	".\src\ExpSpec.tab.h"\
+	
+
+!IF  "$(CFG)" == "miniEasyLocal - Win32 Debug"
+
+!ELSEIF  "$(CFG)" == "miniEasyLocal - Win32 Release"
+
+!ENDIF 
+
+!IF  "$(CFG)" == "miniEasyLocal - Win32 Debug"
+
+!ELSEIF  "$(CFG)" == "miniEasyLocal - Win32 Release"
+
+!ENDIF 
+

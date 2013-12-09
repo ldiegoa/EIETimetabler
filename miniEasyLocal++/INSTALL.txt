@@ -1,0 +1,79 @@
+   EasyLocal++ Installation for Microsoft Visual C++
+
+       --------------------------------------------------------------
+
+        
+
+     What is needed
+
+       In order to install and use EasyLocal++ you must be sure that the
+       target machine provides, at least, the following components:
+
+          *  A zip format unpacking utility (e.g. the WinZip available from
+             http://www.winzip.com)
+          *  Microsoft Visual Studio version > 6.0
+          *  Microsoft Visual C++ compiler version > 6.0
+
+       In addition, EasyLocal++ relies on the following two utilities, which
+       are provided in binary format in the package.:
+
+          *  GNU bison version > 1.28
+          *  GNU flex version > 2.5
+
+       The framework has been tested with the above specified configuration,
+       although, in principle, it could be used with different compilers and
+       different versions of the above mentioned tools. In fact, the framework
+       has been developed exploiting only the C++ standard classes and the STL
+       library. Yet, the details on how to port the framework on different
+       compilers/tools platform is out of the scope of this document. 
+
+     Installing EasyLocal++
+
+       To install the framework you have to unpack the file
+       miniEasyLocalpp-0.2.zip in the target directory using the zip format
+       unpacking utility (see the tool documentation for learning how to make
+       it).
+
+       This step will create a directory called miniEasyLocal++/ which
+       contains the entire distribution tree.
+
+     Compiling the EasyLocal++ library
+
+       Once you are sure that the suite of tools required are provided you
+       have two options for compiling the library.
+
+       The first option is to open the miniEasyLocal++ project within the
+       Microsoft Visual C++ IDE. To this aim, you can simply double-click on
+       the miniEasyLocal.dsw file in the root directory of the distribution.
+       Then, for building the library, it remains to select the build
+       libEasyLocal.lib command from the IDE Build menu.
+
+       The alternative option consists in opening a command shell (e.g.
+       executing the command command) and then in running the nmake utility.
+
+       The outcome of the compilation is the static library libEasyLocal.lib,
+       which must be linked with every file that uses the framework classes.
+       Namely, it contains all the class implementations that do not need to
+       be instantiated at the compile time (i.e., no template classes), and
+       the compiled version of the ExpSpec language interpreter.
+
+     Using the framework
+
+       In order to use the EasyLocal++ classes in an application the following
+       steps are needed:
+
+          1. Add the #include <EasyLocal>directive in any file that uses the
+             framework classes This directive automatically includes the
+             appropriate header file that contains the interface of the
+             classes and the code file which contains the template
+             implementations (that need to be instantiated at the compile
+             time).
+          2. Set the compiler to look for the EasyLocal++ files by adding the
+             option /I<EasyLocal++ directory>\src to the compilation command
+             line or setting appropriately the option in the Visual C++ IDE
+             (namely it is the Preprocessor option in the C/C++ tab of the
+             project's settings).
+          3. Link the object files of your application with the EasyLocal++
+             library by adding the file libEasyLocal.lib to the linking
+             command line or adding it to the project's file list.
+

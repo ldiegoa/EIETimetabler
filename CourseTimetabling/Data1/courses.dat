@@ -1,0 +1,56 @@
+Codigo        Nombre                                       Docente      Lecciones    Cupo
+
+IE0209A,    Circuitos Lineales I,                        JGutierrez,     2 4        30
+IE0209B,    Circuitos Lineales I,                        JGutierrez,     2 4        30
+IE0281,     Termofluidos,											Pendiente, 		 2 4			5000
+IE0303A,		Electrotecnia,											JSanchez,		 1 4			32
+IE0303B,		Electrotecnia,											EAraya,		    1 4			32
+IE0303C,		Electrotecnia,											TDelgado,	    1 4			32
+IE0305A, 	Matematica Superior,									EdFaria,			 2 4			30
+IE0305B, 	Matematica Superior,									MChacon,			 2 4			30
+IE0305C, 	Matematica Superior,									JCascante,		 2 4			30
+IE0307A,		Teoria del Campo I,									ASantana,		 2 4			30
+IE0307B,		Teoria del Campo I,									ASantana,		 2 4			30
+IE0309A, 	Circuitos Lineales II,								EAraya,			 2 4			30
+IE0309B, 	Circuitos Lineales II,								MFernandez,		 2 4			30
+IE0311,   	Dispositivos Semiconductores,						ECoen,			 2 4			30
+IE0313A, 	Electronica I,											JMPaez,			 2 4 			30
+IE0313B, 	Electronica I,											IRamirez,		 2 4 			30
+IE0315A, 	Maquinas Electricas I,								JJMontero,		 2 4			24
+IE0315B, 	Maquinas Electricas I,								GMora,			 2 4			24
+IE0321,		Estructura de Computadores Digitales,			JLLopez,			 2 4			30
+IE0323A,		Circuitos Digitales I,								GDelgado,		 2 4			30
+IE0323B,		Circuitos Digitales I,								JLCrespo,		 2 4			30
+IE0323C,		Circuitos Digitales I,								LochiYu,			 2 4			30
+IE0365,		Transmision de Potencia,							JBlanco,			 1 4			30
+IE0379A,		Teoria Economica,										MRoman,			 1 4			30
+IE0379B,		Teoria Economica,										JRAlfaro,		 1 4			30
+IE0381,		Ciencia de los Materiales,							Pendiente2,		 2 4			30
+IE0405A,		Modelos Probabilisticos de Senales y Sist,	JRomero,			 2 4			30
+IE0405B,		Modelos Probabilisticos de Senales y Sist,	JARamirez,		 2 4			30
+IE0409A,		Analisis de Sistemas,								JDRojas,			 2 4 			30
+IE0409B,		Analisis de Sistemas,								REspinoza,		 2 4 			30
+IE0411,		Microelectronica,										RSteinvorth,	 2 4			30
+IE0413A,		Electronica II,										TWillink,		 2 4			30
+IE0413B,		Electronica II,										PZeledon,		 2 4			30
+IE0425,		Redes de Computadores,								ENavas,			 1 4			30
+IE0430A,		Sistemas de Control,									OArrieta,		 2 4			30
+IE0430B,		Sistemas de Control,									OArrieta,		 2 4			30
+IE0433,		Control e instrumentacion de procesos Ind,	VMAlfaro,		 1 4			20
+IE0447,		Procesamiento Digital de Senales, 				JRomero,			 2 4			30
+IE0449,		Vision por Computador,								GMartinez,		 1 4			20
+IE0467,		Distribucion Electrica Subterranea,				WPineda,			 2 4			30
+IE0469,		Sistemas de Potencia,								JCMontero,		 2 4			30
+IE0471A,		Diseno Electrico Industrial I,					JRRodriguez,	 1 4			30
+IE0471B,		Diseno Electrico Industrial I,					LFAndres,		 1 4			30
+IE0479A,		Ingenieria Economica,								WHerrera,		 1 4			30
+IE0479B,		Ingenieria Economica,								JRAlfaro,		 1 4			30
+IE0501A,		Responsabilidad en el Ejercicio Profesional,	IRetana,			 1 4			27
+IE0501B,		Responsabilidad en el Ejercicio Profesional,	IRetana,			 1 4			27
+IE0505, 		Tecnicas de Optimizacion,							REspinoza,		 1 4			30
+IE0513A, 	Electronica III,										JMArteaga,		 2 4			30
+IE0513B, 	Electronica III,										JMArteaga,		 2 4			30
+IE0527,		Ingenieria de Comunicaciones,						TWillink,		 2 4			30
+IE0615A, 	Maquinas Electricas II,								GValverde,		 2 4			24
+IE0615B, 	Maquinas Electricas II,								GValverde,		 2 4			24
+IE0615C, 	Maquinas Electricas II,								JJMontero,		 2 4			24

@@ -1,0 +1,7 @@
+faculty.o: faculty.cpp faculty.hpp
+solver.o: solver.cpp solver.hpp faculty.hpp \
+ ../miniEasyLocal++/src/EasyLocal.h \
+ ../miniEasyLocal++/src/EasyLocalTemplates.cpp
+main.o: main.cpp faculty.hpp solver.hpp \
+ ../miniEasyLocal++/src/EasyLocal.h \
+ ../miniEasyLocal++/src/EasyLocalTemplates.cpp

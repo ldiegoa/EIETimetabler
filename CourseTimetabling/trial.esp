@@ -1,0 +1,17 @@
+Instance "FirstTerm"
+{ Trials: 20;
+  Output prefix: "TStandem";
+  Runner tabu search "ChangeTime TS-Timetabler"
+  { min tabu tenure: 25;
+    max tabu tenure: 40;
+    max idle iteration: 1000; 
+    max iteration: 20000; 
+  }
+  Runner tabu search "ChangeTime TS-Roomtabler"
+  { min tabu tenure: 10;
+    max tabu tenure: 20;
+    max idle iteration: 500; 
+    max iteration: 10000; 
+  }
+}
+

@@ -1,0 +1,9 @@
+bison -d ExpSpec.y
+flex -o ExpSpec.yy.cpp ExpSpec.lex
+mv ExpSpec.tab.c ExpSpec.tab.cpp
+g++ -c -Wall EasyLocal.cpp  -o EasyLocal.o
+g++ -c -Wall ExpSpec.tab.cpp  -o ExpSpec.tab.o
+g++ -c -Wall ExpSpec.yy.cpp  -o ExpSpec.yy.o
+cd ..
+ar -cvq libEasyLocal.a  src/EasyLocal.o src/ExpSpec.tab.o src/ExpSpec.yy.o
+mv libEasyLocal.a lib

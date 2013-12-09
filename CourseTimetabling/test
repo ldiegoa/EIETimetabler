@@ -1,0 +1,35 @@
+Course    (Teacher)           |       Monday       |      Tuesday       |      Wednesday     |      Thursday      |       Friday       |
+ - - - - - - - - - - - - - -  |  9   11   14   16  |  9   11   14   16  |  9   11   14   16  |  9   11   14   16  |  9   11   14   16  |
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Mat1C     (Rossi)             |  -    A    L    -  |  -    -    -    L  |  -    -    -    -  |  -    -    -    A  |  D    -    -    -  |
+Mat1E     (Gialli)            |  -    -    -    G  |  E    -    -    -  |  -   DIS   -    A  |  -    -    -    -  |  -    -    -   50  |
+Mat1G     (Verdi)             |  -    L    -    -  |  -    -    -    -  |  L    -    -    -  | 50    -    -    G  |  -    -    E    -  |
+Mat1M     (Neri)              |  E    -    -    -  |  -    -    -    E  |  A    -   27    -  |  -    -    L    -  |  -    -    -    -  |
+AnMat2C   (Blu)               |  -    -    -    -  |  -    -    -    B  | DIS   -    -    -  |  -    F    -    -  | DIS   G    -    -  |
+Dis       (Viola)             | 50    -    -    -  |  -    G    -    -  |  -    -    -   50  |  -    -    F    -  |  -    -    -   27  |
+SceCosC   (Ocra)              |  -    -    -    D  |  -   DIS   E    -  |  -    F    -    -  |  -    -    -    -  |  -    -    G    -  |
+ArcTec    (Indaco)            |  G    -    -    -  | DIS   -    -    -  | 27    -    -    -  |  -    -   27    B  |  -    -    -    -  |
+TecCos    (Rosa)              | 27    -    -    E  |  -    -    -    -  |  -    -    F    -  |  -   50    -    -  |  -    -    -    B  |
+Geotec    (Scarlatti)         |  -    -    -    -  | 30    -   DIS   -  |  E    -    -    -  |  D    -    -    -  |  -    -   50    -  |
+CosIdr    (Amaranto)          |  -    -    -    F  |  -    -    -   50  |  -    -    -    L  |  -    E    -    -  |  -    -    F    -  |
+CalStr    (Celeste)           | 36    -    D    -  |  -    -    -    -  |  -   29    -    -  |  -    -    -   31  | 29    -    -    -  |
+IngTer    (Arancio)           |  -    -   38    -  | 37    -    -    -  |  -    D    -    -  | 30    -    -    -  |  -   DIS   -    -  |
+IdrAppl   (Porpora)           |  -    -    -    -  |  -   38    -    -  |  -    -   36    -  |  A    -    -   50  | 36    -    -    -  |
+RilAmb    (Marroni)           |  -   GRT  50    -  | 38    -    -    -  | 30    -    -    -  |  -    -    -    -  |  -    -    -    E  |
+AnMat2E   (Sabbia)            |  -    D    -    -  |  -    -    -    -  |  -    -    -   DIS |  -    B    A    -  |  B    -    -    -  |
+EcoOrAz   (Perla)             |  F    -    -   DIS |  B    -    -    -  |  -    -    B    -  |  -    -    -   27  |  -    -    -    -  |
+Eltec     (Grigi)             |  L    -    -   50  | 50    -    -    -  |  -    L    -    -  |  -    -    -    -  |  A    -    -    -  |
+MetMat    (Bianchi)           |  -    E    -    -  |  -    -    -   27  |  -    -    -    -  |  B    G    -    -  |  -    F    -    -  |
+EletIIE   (Rosso)             |  B    -    -    -  |  -    -   27    F  |  -    -    -    B  |  -   DIS   -    -  |  -    -    -    -  |
+Campi     (Prugna)            |  -    -    E    -  |  -    E    -    -  |  F    -    -    -  |  -    -    -   DIS |  -    D    -    -  |
+AnMat2G   (Sabbia)            |  D    -    -    -  |  -    F    -    -  |  -    -    -    -  |  -    -    -    L  |  -   50    -    F  |
+Stat      (Lilla)             |  -    -   DIS   -  |  -    -    A    -  |  -    E    -    F  |  -    -    -    -  |  G    -    -    -  |
+ImpInd    (Turchese)          |  -    -    B    -  |  -    -    -    -  |  -    A    -    -  |  -    D    -    -  |  -    -    B    A  |
+EcoOrg    (Oliva)             | DIS   -    -    -  |  G    -    -    -  |  G    -    -    -  |  -    -    G    D  |  -    -    -    -  |
+GestAz    (Chiari)            |  -    -   27    -  |  -   50    -    -  |  -   50    G    -  |  F    -    -    -  |  -    -    -    -  |
+MachIG    (Scuri)             |  -    -    -    -  |  -    -    -   DIS |  -    -    -    G  |  -    A    E    -  |  -    -   DIS   -  |
+EletIIG   (Rosso)             |  -    -    -    A  |  A    -    -    -  | 50    -    -    -  |  -    -   50    -  |  -    L    -    -  |
+ImpMecG   (Fumo)              |  -    -    -    -  |  -    A    -    D  |  B    -    -    -  | 27    -    -    -  |  -    A    -    -  |
+RicOp     (Cremisi)           |  A    -    G    -  |  F    -    -    -  |  -    -    -    E  |  -    -    -    -  |  -    -   27    -  |
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+

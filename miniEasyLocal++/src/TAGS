@@ -1,0 +1,279 @@
+
+EasyLocal.h,135
+#define __EASYLOCAL_H17,475
+extern FILE *yyin;34,867
+extern FILE *yyout;36,955
+#define HARD_WEIGHT 56,1744
+#define fvalue 71,2303
+
+EasyLocal.cpp,1313
+namespace easylocal easylocal27,812
+  int Random(easylocal::Random37,1076
+  void AbstractTester::SetSolverTrials(easylocal::AbstractTester::SetSolverTrials53,1510
+  void AbstractTester::SetLogFile(easylocal::AbstractTester::SetLogFile62,1720
+  void AbstractTester::SetOutputPrefix(easylocal::AbstractTester::SetOutputPrefix72,2087
+  void AbstractTester::SetPlotPrefix(easylocal::AbstractTester::SetPlotPrefix81,2389
+  ParameterData::ParameterData(easylocal::ParameterData::ParameterData95,2748
+  std::string ParameterData::Name(easylocal::ParameterData::Name104,2973
+  std::string ParameterData::Type(easylocal::ParameterData::Type112,3144
+  ValueType ParameterData::Value(easylocal::ParameterData::Value120,3318
+  void ParameterBox::Put(easylocal::ParameterBox::Put131,3611
+  void ParameterBox::Put(easylocal::ParameterBox::Put140,3931
+  void ParameterBox::Put(easylocal::ParameterBox::Put153,4291
+  void ParameterBox::Put(easylocal::ParameterBox::Put166,4650
+  void ParameterBox::Get(easylocal::ParameterBox::Get181,5137
+  void ParameterBox::Get(easylocal::ParameterBox::Get200,5692
+  void ParameterBox::Get(easylocal::ParameterBox::Get219,6239
+  void ParameterBox::Get(easylocal::ParameterBox::Get238,6785
+  void ParameterBox::Clear(easylocal::ParameterBox::Clear254,7215
+
+EasyLocalTemplates.cpp,15836
+namespace easylocal easylocal17,470
+  inline double distance(easylocal::distance27,748
+  fvalue StateManager<Input,State>::SampleState(easylocal::SampleState42,1094
+  fvalue StateManager<Input,State>::ImprovedSampleState(easylocal::ImprovedSampleState74,1941
+  fvalue StateManager<Input,State>::CostFunction(easylocal::CostFunction112,3013
+  void StateManager<Input,State>::PrintState(easylocal::PrintState121,3318
+  fvalue StateManager<Input,State>::Violations(easylocal::Violations137,3934
+  fvalue StateManager<Input,State>::Objective(easylocal::Objective151,4413
+  void StateManager<Input,State>::SetInput(easylocal::SetInput163,4771
+  Input* StateManager<Input,State>::GetInput(easylocal::GetInput172,5019
+  void StateManager<Input,State>::Check(easylocal::Check180,5231
+  StateManager<Input,State>::StateManager(easylocal::StateManager189,5478
+  void OutputManager<Input,Output,State>::ReadState(easylocal::ReadState203,5774
+  void OutputManager<Input,Output,State>::WriteState(easylocal::WriteState217,6123
+  void OutputManager<Input,Output,State>::SetInput(easylocal::SetInput230,6477
+  Input* OutputManager<Input,Output,State>::GetInput(easylocal::GetInput239,6739
+  void OutputManager<Input,Output,State>::Check(easylocal::Check247,6975
+  TabuListManager<Move>::TabuListManager(easylocal::TabuListManager263,7497
+  void TabuListManager<Move>::InsertMove(easylocal::InsertMove276,7854
+  bool TabuListManager<Move>::ProhibitedMove(easylocal::ProhibitedMove292,8361
+  void TabuListManager<Move>::Clean(easylocal::Clean299,8629
+  bool TabuListManager<Move>::ListMember(easylocal::ListMember310,8947
+  bool TabuListManager<Move>::Aspiration(easylocal::Aspiration353,10224
+  void TabuListManager<Move>::InsertIntoList(easylocal::InsertIntoList363,10564
+  NeighborhoodExplorer<Input,State,Move>::NeighborhoodExplorer(easylocal::NeighborhoodExplorer388,11262
+  NeighborhoodExplorer<Input,State,Move>::NeighborhoodExplorer(easylocal::NeighborhoodExplorer402,11849
+  fvalue NeighborhoodExplorer<Input,State,Move>::DeltaCostFunction(easylocal::DeltaCostFunction417,12468
+  void NeighborhoodExplorer<Input,State,Move>::SetProhibitionManager(easylocal::SetProhibitionManager426,12837
+  fvalue NeighborhoodExplorer<Input,State,Move>::BestMove(easylocal::BestMove440,13310
+  void NeighborhoodExplorer<Input,State,Move>::NeighborhoodStatistics(easylocal::NeighborhoodStatistics472,14216
+  void NeighborhoodExplorer<Input,State,Move>::FirstMove(easylocal::FirstMove511,15551
+  fvalue NeighborhoodExplorer<Input,State,Move>::SampleMove(easylocal::SampleMove527,16012
+  fvalue NeighborhoodExplorer<Input,State,Move>::BestNonProhibitedMove(easylocal::BestNonProhibitedMove560,16927
+  fvalue NeighborhoodExplorer<Input,State,Move>::SampleNonProhibitedMove(easylocal::SampleNonProhibitedMove603,18302
+  void NeighborhoodExplorer<Input,State,Move>::PrintMoveInfo(easylocal::PrintMoveInfo644,19381
+  void NeighborhoodExplorer<Input,State,Move>::SetInput(easylocal::SetInput670,20515
+  Input* NeighborhoodExplorer<Input,State,Move>::GetInput(easylocal::GetInput679,20780
+  void NeighborhoodExplorer<Input,State,Move>::Check(easylocal::Check687,21017
+  fvalue NeighborhoodExplorer<Input,State,Move>::DeltaViolations(easylocal::DeltaViolations702,21633
+  fvalue NeighborhoodExplorer<Input,State,Move>::DeltaObjective(easylocal::DeltaObjective721,22340
+  bool NeighborhoodExplorer<Input,State,Move>::LastMoveDone(easylocal::LastMoveDone737,22906
+  Runner<Input,State>::Runner(easylocal::Runner749,23269
+  std::string Runner<Input,State>::Name(easylocal::Name759,23502
+  std::string Runner<Input,State>::Type(easylocal::Type768,23707
+  void Runner<Input,State>::SetName(easylocal::SetName777,23935
+  MoveRunner<Input,State,Move>::MoveRunner(easylocal::MoveRunner792,24502
+  void MoveRunner<Input,State,Move>::SetInput(easylocal::SetInput808,25080
+  Input* MoveRunner<Input,State,Move>::GetInput(easylocal::GetInput822,25436
+  void MoveRunner<Input,State,Move>::Print(easylocal::Print831,25673
+  void MoveRunner<Input,State,Move>::Check(easylocal::Check839,25943
+  void MoveRunner<Input,State,Move>::SetCurrentState(easylocal::SetCurrentState853,26324
+  State MoveRunner<Input,State,Move>::GetCurrentState(easylocal::GetCurrentState866,26694
+  fvalue MoveRunner<Input,State,Move>::CurrentStateCost(easylocal::CurrentStateCost875,26939
+  State MoveRunner<Input,State,Move>::GetBestState(easylocal::GetBestState884,27198
+  fvalue MoveRunner<Input,State,Move>::BestStateCost(easylocal::BestStateCost893,27466
+  void MoveRunner<Input,State,Move>::ComputeCost(easylocal::ComputeCost901,27745
+  bool MoveRunner<Input,State,Move>::LowerBoundReached(easylocal::LowerBoundReached910,28099
+  unsigned long MoveRunner<Input,State,Move>::NumberOfIterations(easylocal::NumberOfIterations919,28376
+  unsigned long MoveRunner<Input,State,Move>::MaxIteration(easylocal::MaxIteration928,28679
+  void MoveRunner<Input,State,Move>::SetMaxIteration(easylocal::SetMaxIteration936,28984
+  void MoveRunner<Input,State,Move>::SetParameters(easylocal::SetParameters945,29299
+  void MoveRunner<Input,State,Move>::Go(easylocal::Go955,29606
+  void MoveRunner<Input,State,Move>::MakeMove(easylocal::MakeMove980,30206
+  void MoveRunner<Input,State,Move>::Step(easylocal::Step1019,31521
+  void MoveRunner<Input,State,Move>::ComputeMoveCost(easylocal::ComputeMoveCost1041,32030
+  void MoveRunner<Input,State,Move>::UpdateIterationCounter(easylocal::UpdateIterationCounter1048,32306
+  bool MoveRunner<Input,State,Move>::MaxIterationExpired(easylocal::MaxIterationExpired1059,32679
+  bool MoveRunner<Input,State,Move>::AcceptableMove(easylocal::AcceptableMove1067,32969
+  void MoveRunner<Input,State,Move>::UpdateStateCost(easylocal::UpdateStateCost1074,33171
+  void MoveRunner<Input,State,Move>::InitializeRun(easylocal::InitializeRun1081,33408
+  HillClimbing<Input,State,Move>::HillClimbing(easylocal::HillClimbing1105,34036
+  void HillClimbing<Input,State,Move>::ReadParameters(easylocal::ReadParameters1115,34428
+  void HillClimbing<Input,State,Move>::SelectMove(easylocal::SelectMove1127,34813
+  void HillClimbing<Input,State,Move>::InitializeRun(easylocal::InitializeRun1138,35115
+  void HillClimbing<Input,State,Move>::TerminateRun(easylocal::TerminateRun1149,35461
+  bool HillClimbing<Input,State,Move>::StopCriterion(easylocal::StopCriterion1160,35823
+  bool HillClimbing<Input,State,Move>::AcceptableMove(easylocal::AcceptableMove1168,36130
+  void HillClimbing<Input,State,Move>::StoreMove(easylocal::StoreMove1176,36406
+  void HillClimbing<Input,State,Move>::Print(easylocal::Print1190,36738
+  SteepestDescent<Input,State,Move>::SteepestDescent(easylocal::SteepestDescent1216,37765
+  void SteepestDescent<Input,State,Move>::SelectMove(easylocal::SelectMove1224,38117
+  void SteepestDescent<Input,State,Move>::InitializeRun(easylocal::InitializeRun1232,38469
+  bool SteepestDescent<Input,State,Move>::StopCriterion(easylocal::StopCriterion1243,38858
+  bool SteepestDescent<Input,State,Move>::AcceptableMove(easylocal::AcceptableMove1250,39073
+  void SteepestDescent<Input,State,Move>::TerminateRun(easylocal::TerminateRun1258,39361
+  void SteepestDescent<Input,State,Move>::Print(easylocal::Print1270,39683
+  TabuSearch<Input,State,Move>::TabuSearch(easylocal::TabuSearch1295,40644
+  void TabuSearch<Input,State,Move>::SetInput(easylocal::SetInput1312,41214
+  void TabuSearch<Input,State,Move>::ReadParameters(easylocal::ReadParameters1322,41494
+  void TabuSearch<Input,State,Move>::SetTabuListManager(easylocal::SetTabuListManager1341,42200
+  void TabuSearch<Input,State,Move>::InitializeRun(easylocal::InitializeRun1355,42665
+  void TabuSearch<Input,State,Move>::SelectMove(easylocal::SelectMove1367,43001
+  bool TabuSearch<Input,State,Move>::StopCriterion(easylocal::StopCriterion1375,43377
+  bool TabuSearch<Input,State,Move>::AcceptableMove(easylocal::AcceptableMove1384,43765
+  void TabuSearch<Input,State,Move>::SetParameters(easylocal::SetParameters1393,44060
+  void TabuSearch<Input,State,Move>::StoreMove(easylocal::StoreMove1407,44573
+  void TabuSearch<Input,State,Move>::Print(easylocal::Print1424,45082
+  SimulatedAnnealing<Input,State,Move>::SimulatedAnnealing(easylocal::SimulatedAnnealing1456,46408
+  void SimulatedAnnealing<Input,State,Move>::ReadParameters(easylocal::ReadParameters1466,46820
+  void SimulatedAnnealing<Input,State,Move>::InitializeRun(easylocal::InitializeRun1482,47398
+  void SimulatedAnnealing<Input,State,Move>::TerminateRun(easylocal::TerminateRun1493,47786
+  void SimulatedAnnealing<Input,State,Move>::SelectMove(easylocal::SelectMove1503,48033
+  void SimulatedAnnealing<Input,State,Move>::SetParameters(easylocal::SetParameters1515,48409
+  void SimulatedAnnealing<Input,State,Move>::Print(easylocal::Print1529,48873
+  bool SimulatedAnnealing<Input,State,Move>::StopCriterion(easylocal::StopCriterion1548,49677
+  void SimulatedAnnealing<Input,State,Move>::UpdateIterationCounter(easylocal::UpdateIterationCounter1556,49945
+  bool SimulatedAnnealing<Input,State,Move>::AcceptableMove(easylocal::AcceptableMove1567,50349
+  void Solver<Input,Output>::SetInput(easylocal::SetInput1577,50715
+  void Solver<Input,Output>::SetOutput(easylocal::SetOutput1586,50975
+  Solver<Input,Output>::Solver(easylocal::Solver1596,51276
+  Input* Solver<Input,Output>::GetInput(easylocal::GetInput1606,51533
+  Output* Solver<Input,Output>::GetOutput(easylocal::GetOutput1615,51764
+  void LocalSearchSolver<Input,Output,State>::SetInitTrials(easylocal::SetInitTrials1623,51987
+  void LocalSearchSolver<Input,Output,State>::SetInput(easylocal::SetInput1632,52272
+  fvalue LocalSearchSolver<Input,Output,State>::InternalStateCost(easylocal::InternalStateCost1644,52572
+  LocalSearchSolver<Input,Output,State>::LocalSearchSolver(easylocal::LocalSearchSolver1657,53088
+  void LocalSearchSolver<Input,Output,State>::DeliverOutput(easylocal::DeliverOutput1670,53596
+  void LocalSearchSolver<Input,Output,State>::FindInitialState(easylocal::FindInitialState1678,53914
+  void LocalSearchSolver<Input,Output,State>::ComputeCost(easylocal::ComputeCost1685,54206
+  void LocalSearchSolver<Input,Output,State>::Check(easylocal::Check1694,54490
+  void SimpleLocalSearch<Input,Output,State>::SetRunner(easylocal::SetRunner1708,54864
+  SimpleLocalSearch<Input,Output,State>::SimpleLocalSearch(easylocal::SimpleLocalSearch1724,55453
+  SimpleLocalSearch<Input,Output,State>::SimpleLocalSearch(easylocal::SimpleLocalSearch1739,56134
+  unsigned long SimpleLocalSearch<Input,Output,State>::NumberOfIterations(easylocal::NumberOfIterations1750,56574
+  void SimpleLocalSearch<Input,Output,State>::Run(easylocal::Run1757,56838
+  void LocalSearchSolver<Input,Output,State>::Solve(easylocal::Solve1770,57271
+  void LocalSearchSolver<Input,Output,State>::ReSolve(easylocal::ReSolve1782,57571
+  void LocalSearchSolver<Input,Output,State>::MultiStartSolve(easylocal::MultiStartSolve1795,57870
+  unsigned long MultiRunnerSolver<Input,Output,State>::NumberOfIterations(easylocal::NumberOfIterations1820,58667
+  MultiRunnerSolver<Input,Output,State>::MultiRunnerSolver(easylocal::MultiRunnerSolver1834,59198
+  void MultiRunnerSolver<Input,Output,State>::SetRunner(easylocal::SetRunner1846,59703
+  void MultiRunnerSolver<Input,Output,State>::AddRunner(easylocal::AddRunner1858,60057
+  void MultiRunnerSolver<Input,Output,State>::ClearRunners(easylocal::ClearRunners1865,60293
+  void ComparativeSolver<Input,Output,State>::Run(easylocal::Run1873,60536
+  void TokenRingSolver<Input,Output,State>::SetRounds(easylocal::SetRounds1903,61408
+  void TokenRingSolver<Input,Output,State>::SetStartRunner(easylocal::SetStartRunner1912,61679
+  TokenRingSolver<Input,Output,State>::TokenRingSolver(easylocal::TokenRingSolver1926,62200
+  void TokenRingSolver<Input,Output,State>::Check(easylocal::Check1936,62598
+  void TokenRingSolver<Input,Output,State>::Print(easylocal::Print1952,63013
+  void TokenRingSolver<Input,Output,State>::Run(easylocal::Run1967,63461
+  AbstractMoveTester<Input,Output,State>::AbstractMoveTester(easylocal::AbstractMoveTester2025,65163
+  std::string AbstractMoveTester<Input,Output,State>::Name(easylocal::Name2033,65399
+  MoveTester<Input,Output,State,Move>::MoveTester(easylocal::MoveTester2050,66008
+  void MoveTester<Input,Output,State,Move>::SetInput(easylocal::SetInput2067,66571
+  void MoveTester<Input,Output,State,Move>::RunTestMenu(easylocal::RunTestMenu2080,66888
+  void MoveTester<Input,Output,State,Move>::ShowMenu(easylocal::ShowMenu2105,67631
+  void MoveTester<Input,Output,State,Move>::ExecuteChoice(easylocal::ExecuteChoice2124,68267
+  StateTester<Input,Output,State>::StateTester(easylocal::StateTester2182,69656
+  void StateTester<Input,Output,State>::SetInput(easylocal::SetInput2195,70056
+  void StateTester<Input,Output,State>::RunTestMenu(easylocal::RunTestMenu2207,70334
+  void StateTester<Input,Output,State>::RunInputMenu(easylocal::RunInputMenu2227,71069
+  void StateTester<Input,Output,State>::ShowMenu(easylocal::ShowMenu2244,71664
+  void StateTester<Input,Output,State>::ShowReducedMenu(easylocal::ShowReducedMenu2262,72311
+  void StateTester<Input,Output,State>::ExecuteChoice(easylocal::ExecuteChoice2279,72909
+  void Tester<Input, Output, State>::SetMoveTester(easylocal::SetMoveTester2352,74486
+  void Tester<Input, Output, State>::AddMoveTester(easylocal::AddMoveTester2361,74801
+  void Tester<Input, Output, State>::CleanMoveTesters(easylocal::CleanMoveTesters2368,75043
+  void Tester<Input, Output, State>::SetStateTester(easylocal::SetStateTester2377,75300
+  Tester<Input, Output, State>::Tester(easylocal::Tester2389,75762
+  void Tester<Input,Output,State>::SetInput(easylocal::SetInput2414,76399
+  void  Tester<Input,Output,State>::Check(easylocal::Check2438,77038
+  void  Tester<Input,Output,State>::Print(easylocal::Print2457,77540
+  void Tester<Input, Output, State>::SetSolver(easylocal::SetSolver2474,78007
+  void Tester<Input, Output, State>::SetSolverParameters(easylocal::SetSolverParameters2490,78558
+  void Tester<Input, Output, State>::CleanRunners(easylocal::CleanRunners2501,78903
+  void Tester<Input, Output, State>::SetRunner(easylocal::SetRunner2514,79252
+  void Tester<Input, Output, State>::AddRunner(easylocal::AddRunner2527,79598
+  void Tester<Input, Output, State>::CleanSolver(easylocal::CleanSolver2539,79926
+  int Tester<Input, Output, State>::AddRunnerToSolver(easylocal::AddRunnerToSolver2553,80329
+  void Tester<Input, Output, State>::SetRunningParameters(easylocal::SetRunningParameters2588,81234
+  void Tester<Input, Output, State>::StartSolver(easylocal::StartSolver2605,81696
+  void Tester<Input, Output, State>::LoadInstance(easylocal::LoadInstance2652,83515
+  void Tester<Input, Output, State>::ProcessBatch(easylocal::ProcessBatch2666,83879
+  void Tester<Input, Output, State>::RunMainMenu(easylocal::RunMainMenu2684,84279
+  void Tester<Input,Output, State>::ShowMainMenu(easylocal::ShowMainMenu2709,84876
+  void Tester<Input,Output, State>::ShowDebuggingMenu(easylocal::ShowDebuggingMenu2726,85398
+  void Tester<Input, Output,State>::ExecuteDebuggingMenu(easylocal::ExecuteDebuggingMenu2739,85793
+  void Tester<Input, Output,State>::ExecuteMainChoice(easylocal::ExecuteMainChoice2759,86160
+  void Tester<Input, Output,State>::ShowMovesMenu(easylocal::ShowMovesMenu2796,86890
+  void Tester<Input,Output, State>::ShowRunMenu(easylocal::ShowRunMenu2811,87385
+  void Tester<Input,Output, State>::ExecuteMovesChoice(easylocal::ExecuteMovesChoice2826,87914
+  void Tester<Input,Output, State>::ExecuteRunChoice(easylocal::ExecuteRunChoice2836,88181
+
+ExpSpec.lex,1908
+using namespace std;20,605
+using std::string;21,627
+using namespace easylocal;22,647
+#define YY_USER_ACTION 29,825
+unsigned int yycolno 40,1180
+int comment_caller;41,1231
+int string_caller;42,1330
+char* foo;43,1427
+digit 65,1845
+integer 68,1905
+id 69,1928
+string 70,1964
+"Instance"             BEGIN(instance); return INSTANCE;81,2284
+  "Log file:"          return LOG_FILE;84,2358
+  "Output prefix:"     return OUTPUT_PREFIX;85,2399
+  "Plot prefix:"       return PLOT_PREFIX;86,2445
+  "Trials:"            return TRIALS;87,2489
+  "Runner"             BEGIN(runner); return RUNNER;88,2528
+  "hill climbing"      return HILL_CLIMBING;96,2782
+  "tabu search"        return TABU_SEARCH;97,2828
+  "simulated annealing" return SIMULATED_ANNEALING;98,2872
+  "max iteration:"     return MAX_ITERATION;99,2925
+  "max idle iteration:" return MAX_IDLE_ITERATION;100,2971
+  "max tabu tenure:"   return MAX_TABU_TENURE;101,3023
+  "min tabu tenure:"   return MIN_TABU_TENURE;102,3071
+  "start temperature:" return START_TEMPERATURE;103,3119
+  "cooling rate:"      return COOLING_RATE;104,3169
+  "neighbors sampled:" return NEIGHBORS_SAMPLED;105,3215
+<*>{bblock}            return BBLOCK;112,3455
+<*>{estmt}             return ESTMT;113,3517
+<*>{string}            yylval.char_string 115,3586
+<*>{string}            yylval.char_string = new string(trimdelims(yytext)); return STRING;115,3586
+<*>{natural}           yylval.natural 116,3678
+<*>{natural}           yylval.natural = strtoul(yytext,&foo,0); return NATURAL;116,3678
+<*>{float}             yylval.real 117,3760
+<*>{float}             yylval.real = strtod(yytext,&foo); return REAL;117,3760
+<*>{id}                yylval.char_string 118,3832
+<*>{id}                yylval.char_string =  new string(yytext); return IDENTIFIER;118,3832
+                         yycolno 128,4317
+char* trimdelims(141,4653
+char* copy(150,4825
+
+ExpSpec.y,562
+using namespace easylocal;28,726
+#define YYERROR_VERBOSE30,756
+extern unsigned int yycolno;33,810
+extern int yylineno;34,840
+AbstractTester* main_tester;35,862
+int yyerror(39,1010
+struct ix_parbox ix_parbox44,1120
+instances:94,2280
+instance:101,2461
+solver:111,2684
+other_parameters:120,2829
+file_parameters:122,2914
+output_and_plot:124,2989
+solver_trials:127,3094
+log_file:137,3282
+output_file_prefix:145,3434
+plot_file_prefix:154,3599
+runners:164,3756
+runner:168,3807
+hc_parameters:245,5876
+ts_parameters:260,6259
+sa_parameters:283,6993
