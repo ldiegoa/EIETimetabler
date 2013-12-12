@@ -1,7 +1,7 @@
 // File main.cpp
 #include "faculty.hpp"
 #include "solver.hpp"
-//#include <EasyLocal>
+
 
 using namespace easylocal;
 
@@ -9,7 +9,7 @@ extern AbstractTester* main_tester;
 
 int main(int argc, char** argv)
 {
-  // basic classes
+
   Faculty in; 
   if (argc == 1)
     {
@@ -84,11 +84,9 @@ int main(int argc, char** argv)
   tester.SetSolver(&trs);
   tester.SetInput(&in);
 
-  // set the main_tester variable, needed for communication 
-  // with the batch-language parser 
   main_tester = &tester;
 
-  //  some output parts are specifically designed for 4 periods per day
+
   assert(in.PeriodsPerDay() == 6);
 
   if (argc == 1)

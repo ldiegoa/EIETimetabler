@@ -89,7 +89,7 @@ int main(int argc, char** argv)
   main_tester = &tester;
 
   //  some output parts are specifically designed for 4 periods per day
-  assert(in.PeriodsPerDay() == 5);
+  assert(in.PeriodsPerDay() == 6);
 
   if (argc == 1)
     tester.RunMainMenu();
